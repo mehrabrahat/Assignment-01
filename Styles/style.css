@@ -575,3 +575,34 @@ text-decoration-line: underline;
 }
 
 /* footer section */
+.bfooter{
+
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 79px;
+    display: flex;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: center;
+    border-radius: 16px;
+}
+.bfooter .sfooter{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bfooter .sfooter .writing{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+}
+.bfooter .sfooter .images .space{
+    padding-left: 24px;
+    padding-right: 24px;
+}
