@@ -53,6 +53,7 @@ padding-left: 73px;
 padding-right: 73px;
 margin-top: 0px;
 margin-bottom: 55px;
+opacity: 0.7;
 }
 .introduction .intro button{
 cursor: pointer;
@@ -69,7 +70,7 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
-/*header end*/
+
 
 /*description start*/
 .why-grand{
@@ -98,6 +99,7 @@ align-items: center;
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    
 }
 .why-grand .why-parent .writing p{
 color: rgb(13, 19, 33);
@@ -107,6 +109,7 @@ font-weight: 400;
 line-height: 26px;
 text-align: center;
 margin-top: 24px;
+opacity: 0.7;
 }
 .why-grand .why-parent .first{
     width: 946px;
@@ -150,12 +153,13 @@ margin-top: 24px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
+    opacity: 0.7;
 }
 .why-grand .why-parent .first .part .change button{
     width: 150px;
     height: 48px;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
+    
 }
 .why-grand .why-parent .first img{
 width: 259.56px;
@@ -212,12 +216,13 @@ margin-bottom: 31.15px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
+    opacity: 0.7;
 }
 .why-grand .why-parent .second .part .change button{
  width: 150px;
  height: 48px;
  border: 1px solid rgb(13, 19, 33);
- opacity: 0.7;
+
 }
 .why-grand .why-parent .third{
     width: 946px;
@@ -261,12 +266,13 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+opacity: 0.7;
 }
 .why-grand .why-parent .third .part .change button{
     width: 150px;
     height: 48px;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
+    
     
 }
 .why-grand .why-parent .third img{
@@ -278,8 +284,6 @@ margin-left: 16.8px;
 margin-right: 16.8px;
 }
 
-
-/*description end*/
 
 /*inspiration start*/
 .inspiration{
@@ -294,19 +298,20 @@ align-items: center;
 .inspiration .writing h1{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 32px;
+font-size: 34px;
 font-weight: 800;
 line-height: 37px;
 text-align: center;
 }
 .inspiration .writing p{
-    margin-top: 24px;
+margin-top: 30px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: center;
+opacity:0.7;
 }
 .inspiration iframe{
     margin-top: 48px;
@@ -315,7 +320,7 @@ text-align: center;
     border-radius: 16px;
     padding: 32px;
 }
-/*inspiration end*/
+
 
 /*Target start*/
 .current{
@@ -387,6 +392,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+opacity: 0.7;
 }
 .current .target .bhtml .shtml h3{
 margin-top: 24px;
@@ -404,7 +410,7 @@ text-decoration-line: underline;
     margin: 0 auto;
     padding: 40px 40px 40px 40px;
     border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
+    background: rgba(0, 76, 232, 0.05);
 }
 .current .target .bcss .scss{
     width: 284px;
@@ -431,6 +437,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+opacity: 0.7;
 }
 .current .target .bcss .scss h3{
 margin-top: 24px;
@@ -475,6 +482,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+opacity: 0.7;
 }
 .current .target .bjs .sjs h3{
 margin-top: 24px;
@@ -494,7 +502,7 @@ text-decoration-line: underline;
     height: 314px;
     margin: 0 auto;
     margin-top: 41px;
-    background-image: url(images/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-color: rgb(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     background-position: center;
